@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 """The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Therefore, this program Solves the N-queens puzzle by determining all possible solutions to placing N
 N non-attacking queens on an NxN chessboard.
-
 Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
 where `r` and `c` represent the row and column, respectively, where a
 queen must be placed on the chessboard.
 """
-import sys
+
 
 def isSafe(m_queen, nqueen):
     """ Method that determines if the queens can or can't kill each other
